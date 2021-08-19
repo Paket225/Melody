@@ -76,6 +76,9 @@ cursor: pointer;
 .home-image path:hover {
     opacity: 1;
 }
+path.current-floor {
+    opacity: 1;
+}
 .counter-group {
     display: flex;
     flex-direction: column;
@@ -86,7 +89,7 @@ cursor: pointer;
     background-color: #fff;
     border: none;
 }
-.counter-arrow-down {
+.counter-arrow-Down {
     transform: rotateX(180deg);
 }
 .main-title {
@@ -101,7 +104,8 @@ cursor: pointer;
     font-family: "Bebas Neue Cyrillic", sans-serif;
     color: #635854;
     font-size: 124px;
-    margin-top: 10px;
+    margin: 10px; 
+
 }
 .button-primary {
     background: #3596F5;
